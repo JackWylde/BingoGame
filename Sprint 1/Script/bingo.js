@@ -1,6 +1,6 @@
 window.onload = initGame; //Calls the initGame function when the browser is opened
 
-function initGame() //the purpose of this function is to call the functions and variables that are needed on page load for the bingo game to work
+function initGame() //function that calls the functions and variables that need to be loaded when the page opens
 {
 	generateCard(); //calls the generate card function
 }
