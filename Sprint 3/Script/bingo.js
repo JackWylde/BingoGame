@@ -1,6 +1,6 @@
 window.onload = initGame; //Calls the initGame function when the browser is opened
 
-function initGame() //the purpose of this function is to hold a nested loop that creates a random number between 1-75 for every individual cell in the bingo game.
+function initGame() //function that calls the functions and variables that need to be loaded when the page opens
 {
 	generateCardNumbers(); //calls the generateCardNumbers function
 }
