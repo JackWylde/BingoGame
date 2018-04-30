@@ -4,7 +4,7 @@ window.onload = initGame; //Calls the initGame function when the browser is open
 
 function initGame() //function that calls the functions and variables that need to be loaded when the page opens
 {
-	bingoBalls = shuffleBalls(bingoCall(1,78)); ////globally declares a variable with the parameters needed for the bingoCall function, as well as giving shuffleBalls what it needs to shuffle
+	bingoBalls = shuffleBalls(bingoCall(1,78)); //globally declares a variable with the parameters needed for the bingoCall function, as well as giving shuffleBalls what it needs to shuffle
 }
 
 /*------------------MODEL------------------------*/
