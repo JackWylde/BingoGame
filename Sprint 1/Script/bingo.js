@@ -1,11 +1,10 @@
 window.onload = initGame; //Calls the initGame function when the browser is opened
 
-function initGame() //the purpose of this function is to hold a nested loop that creates a random number between 1-75 for every individual cell in the bingo game.
-{
+function initGame() //the purpose of this function is to call the functions and variables that are needed on page load for the bingo game to work
 	generateCard(); //calls the generate card function
 }
 
-function generateCard()
+function generateCard() //the purpose of this function is to generate random numbers and populate each square in the bingo card
 {
 	for (var i = 0; i < 24; i++) //start i at 0, keep looping whilst i is less than 24, increment i by one every time the operator is completed.
 	{
